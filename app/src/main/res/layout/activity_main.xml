@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:text="My Nanodegree Apps!"
+        android:textColor="#607D8B"
+        android:textSize="24sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:background="#F08C35"
+        android:onClick="spotifyStreamer"
+        android:text="Spotify Streamer"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:background="#F08C35"
+        android:onClick="scoresApp"
+        android:text="Scores App"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:background="#F08C35"
+        android:onClick="libraryApp"
+        android:text="Library App"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:background="#F08C35"
+        android:onClick="buildItBigger"
+        android:text="Build It Bigger"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:background="#F08C35"
+        android:onClick="xyzReader"
+        android:text="XYZ Reader"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:background="#E91E63"
+        android:onClick="capstoneApp"
+        android:text="Capstone: My Own App"
+        android:textColor="@android:color/white" />
+</LinearLayout>
